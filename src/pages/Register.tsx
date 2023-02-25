@@ -51,7 +51,6 @@ export function Register() {
       });
 
       navigate("/event");
-      window.location.reload();
       setLoadingSpiner(false);
     }
   }

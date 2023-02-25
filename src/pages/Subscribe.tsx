@@ -38,7 +38,6 @@ export function Subscribe() {
       setLoadingSpiner(true);
       localStorage.setItem("key", valueKey);
       navigate("/event");
-      window.location.reload();
       setLoadingSpiner(false);
       return;
     } else {
